@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2024-07-22T01:39:01.655088",
+    "params": {
+      "n_estimators": 100,
+      "random_state": 42
+    },
+    "metrics": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  }
+]

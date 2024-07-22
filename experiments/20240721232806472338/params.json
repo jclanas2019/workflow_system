@@ -1,0 +1,1 @@
+{"dag_id": "dag_modelo_test", "task_name": "EntrenarModelo", "task_type": "secuencial"}

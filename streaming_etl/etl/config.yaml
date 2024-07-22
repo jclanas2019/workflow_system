@@ -1,0 +1,3 @@
+input_path: "data/source_data.csv"
+output_path: "data/transformed_data.csv"
+threshold_value: 0.5

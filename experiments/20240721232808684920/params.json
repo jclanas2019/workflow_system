@@ -1,0 +1,1 @@
+{"dag_id": "dag_modelo_produccion", "task_name": "EntrenarModeloProduccion", "task_type": "secuencial"}
