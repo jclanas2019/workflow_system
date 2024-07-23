@@ -2,6 +2,15 @@
 
 Este proyecto implementa un sistema de ejecución de DAGs (Directed Acyclic Graphs) con tareas paralelas y secuenciales utilizando Python. A continuación, se describen las características del sistema y su configuración.
 
+DAG (Directed Acyclic Graph) es una estructura que define un conjunto de tareas y sus dependencias. Esencialmente, es una colección de todas las tareas que se desea ejecutar, organizadas de tal manera que reflejan sus relaciones y el orden en que deben ser ejecutadas. Aquí hay una descripción más detallada:
+
+Definición de un DAG
+--Directed (Dirigido): Cada tarea dentro del DAG tiene una dirección específica, es decir, una tarea puede depender de una o varias tareas anteriores, pero no puede depender de ninguna tarea posterior.
+
+--Acyclic (A-cíclico): No se permiten ciclos en el gráfico. Una tarea no puede depender, directa o indirectamente, de sí misma.
+
+--Graph (Gráfico): La estructura del DAG se puede visualizar como un gráfico en el que los nodos representan tareas y las aristas representan las dependencias entre estas tareas.
+
 ## Características del Proyecto
 
 ### Importaciones y Dependencias
